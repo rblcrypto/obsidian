@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('../JetBrainsMonoNL-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'JetBrains Mono';
+	src: url('../JetBrainsMonoNL-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'JetBrains Mono';
+	src: url('../JetBrainsMonoNL-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+  }
+  
+  /* APPLY FONT EVERYWHERE */
+  body,
+  .cm-s-obsidian,
+  .markdown-preview-view,
+  .markdown-rendered,
+  .markdown-source-view,
+  .markdown-source-view.mod-cm6 .cm-line,
+  .callout {
+	font-family: 'JetBrains Mono', monospace !important;
+  }
+
+  .markdown-preview-view h1:first-of-type {
+	display: none !important;
+  }
+
+  .cm-header-1:first-of-type {
+	display: none !important;
+  }
+  
+  
+
+  .view-header-title {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-family: 'JetBrains Mono', monospace !important;
+	opacity: 0.8;
+  }
+  
+
+.theme-dark {
+	--color-base-00: #000;
+	--color-base-05: #080808;
+	--color-base-10: #111;
+	--color-base-20: #1a1a1a;
+	--color-base-25: #222;
+	--color-base-30: #333;
+	--color-base-35: #363636;
+	--color-base-40: #4a4a4a;
+	--color-base-50: #666;
+	--color-base-60: #999;
+	--color-base-70: #bbb;
+	--color-base-100: #fff;
+
+	--background-primary: var(--color-base-00);
+	--background-secondary: var(--color-base-05);
+	--titlebar-background: var(--color-base-00);
+	--titlebar-background-focused: var(--color-base-10);
+}
+
+
+/*
+	No, seriously, that's as simple as it gets.
+	  - Sakura
+*/
