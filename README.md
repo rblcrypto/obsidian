@@ -1,5 +1,5 @@
 gnosis management system for your notes
-
+hi
 ### 00 - maps of content
 central navigation hub containing dynamic maps of content that provide overviews and quick access to different areas of the vault.
 
